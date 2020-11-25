@@ -1,0 +1,15 @@
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Main.Repository.deps.json
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Main.Repository.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Main.Repository.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Domain.Abstractions.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Infrastructure.Core.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Main.Domain.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Main.Domain.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Infrastructure.Core.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\bin\Release\netcoreapp3.1\XZ.Domain.Abstractions.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\obj\Release\netcoreapp3.1\XZ.Main.Repository.csprojAssemblyReference.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\obj\Release\netcoreapp3.1\XZ.Main.Repository.AssemblyInfoInputs.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\obj\Release\netcoreapp3.1\XZ.Main.Repository.AssemblyInfo.cs
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\obj\Release\netcoreapp3.1\XZ.Main.Repository.csproj.CopyComplete
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\obj\Release\netcoreapp3.1\XZ.Main.Repository.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Infrastructure\XZ.Main.Repository\obj\Release\netcoreapp3.1\XZ.Main.Repository.pdb

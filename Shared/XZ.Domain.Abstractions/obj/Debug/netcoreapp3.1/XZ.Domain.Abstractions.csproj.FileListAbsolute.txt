@@ -1,0 +1,8 @@
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\bin\Debug\netcoreapp3.1\XZ.Domain.Abstractions.deps.json
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\bin\Debug\netcoreapp3.1\XZ.Domain.Abstractions.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\bin\Debug\netcoreapp3.1\XZ.Domain.Abstractions.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Debug\netcoreapp3.1\XZ.Domain.Abstractions.AssemblyInfoInputs.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Debug\netcoreapp3.1\XZ.Domain.Abstractions.AssemblyInfo.cs
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Debug\netcoreapp3.1\XZ.Domain.Abstractions.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Debug\netcoreapp3.1\XZ.Domain.Abstractions.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Debug\netcoreapp3.1\XZ.Domain.Abstractions.csproj.CoreCompileInputs.cache

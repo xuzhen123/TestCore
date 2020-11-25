@@ -1,0 +1,24 @@
+syntax = "proto3"; //使用proto3协议
+
+option csharp_namespace = "GrpcServices"; //GRPC命名空间
+
+package GrpcServices;
+
+// The greeting service definition.
+service CreateOrder { //grpc服务类
+  // Sends a greeting
+  rpc SayCreateOrder (OrderRequest) returns (OrderReply); //服务方法
+}
+
+// The request message containing the user's name.
+message OrderRequest {
+  int32 OrderId = 1;
+  string OrderNum = 2;
+  float OrderAmount = 3;
+  string DateOrderDreated = 4;
+}
+
+// The response message containing the greetings.
+message OrderReply {
+  bool IsCreated = 1;
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pbmAlz0ncsAXS8hSh7sp/Sa5LuGt/AkB4KMX6BMPKQ+7tqlBIwtwYP2fqTnqjP1c6xT6E64AYP2opxM82JI95w==",
+  "success": true,
+  "projectFilePath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xuzhen\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>@ViewBag.Title - 客户服务系统</title>
+    <link rel="stylesheet" href="~/css/global.css" media="all" />
+    <link rel="stylesheet" href="~/css/html5.css" media="all" />
+    @RenderSection("header", false)
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="~/js/gq.js"></script>
+</head>
+<body>
+    <div id="nav-view" class="open">
+        <a class="nav-logo"><img alt="客户服务系统" src="~/images/logo.png" /></a>
+        <vc:Nav view-name="Nav"></vc:Nav>
+        <div class="nav-bar" onclick="Gq.nav()"><span class="icon"></span><span class="text">收缩菜单栏</span></div>
+    </div>
+    <div id="main-view">
+        <div id="top-view">
+            <h1 class="gq-singleline">@ViewBag.Title</h1>
+            <div>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a class="user" href="javascript:;">您好:@User.Identity.Name</a>
+                        @*<select class="switch" onchange="javascript:window.open(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+                <option value="">[切换]</option>
+                <option value="@ConstConfig.PROTOCOLSITE://css.@ConstConfig.DOMAIN_INTERNAL">客户服务系统</option>
+                <option value="@ConstConfig.PROTOCOLSITE://risk.@ConstConfig.DOMAIN_INTERNAL">风险控制系统</option>
+                <option value="@ConstConfig.PROTOCOLSITE://payman.@ConstConfig.DOMAIN_INTERNAL">对账及通道管理系统</option>
+                </select>*@
+                <a class="logoff" href="/account/logout" title="安全退出">[退出]</a>
+            }
+
+            </div>
+        </div>
+        <div id="scroll-view">
+            @if (IsSectionDefined("filter"))
+            {
+                <div id="filter-view" class="gq-radius-little">
+                    <a class="left" href="javascript:;">‹</a>
+                    <div class="scroll">
+                        <input type="text" name="q" placeholder="查询从这里开始" autocomplete="off" />
+                    </div>
+                    <a class="right" href="javascript:;">›</a>
+                    <button id="filter-button" type="button">高级查询</button>
+                    <ul class="conditions"></ul>
+                    <ul class="values"></ul>
+                </div>
+                <div id="filter-form">
+                    @RenderSection("filter", false)
+                </div>
+            }
+            @if (IsSectionDefined("shortcuts"))
+            {
+                <div id="shortcuts-view" class="gq-clearfix">
+                    @RenderSection("shortcuts", false)
+                </div>
+            }
+            @RenderBody()
+            <p class="copyright gq-noselect">© @DateTime.Today.Year 保留所有版权</p>
+        </div>
+    </div>
+    <!--@Environment.MachineName-->
+</body>
+</html>

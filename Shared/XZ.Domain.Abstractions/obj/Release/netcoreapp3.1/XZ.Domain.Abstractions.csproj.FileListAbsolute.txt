@@ -1,0 +1,8 @@
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\bin\Release\netcoreapp3.1\XZ.Domain.Abstractions.deps.json
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\bin\Release\netcoreapp3.1\XZ.Domain.Abstractions.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\bin\Release\netcoreapp3.1\XZ.Domain.Abstractions.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Release\netcoreapp3.1\XZ.Domain.Abstractions.csprojAssemblyReference.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Release\netcoreapp3.1\XZ.Domain.Abstractions.AssemblyInfoInputs.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Release\netcoreapp3.1\XZ.Domain.Abstractions.AssemblyInfo.cs
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Release\netcoreapp3.1\XZ.Domain.Abstractions.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Domain.Abstractions\obj\Release\netcoreapp3.1\XZ.Domain.Abstractions.pdb

@@ -1,0 +1,81 @@
+﻿@model SysUserPermissionModel
+@{
+    string selectedNav = ViewBag.Nav;
+}
+<div class="nav-scroll">
+    <nav>
+        <a class="@if (selectedNav == "home") {<text>selected</text>} gq-singleline" href="/"><span class="gq-icon">&#xe910;</span><span class="text">主页</span></a>
+        @if (this.Model != null)
+        {
+            @if (this.Model.IsPermission("25db625b-d142-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "contracts") {<text>selected</text>} gq-singleline" href="/contracts/index"><span class="gq-icon">&#xe667;</span><span class="text">合同</span></a>
+            }
+            @if (this.Model.IsPermission("c3e1bece-d143-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "agents") {<text>selected</text>} gq-singleline" href="/agents/index"><span class="gq-icon">&#xe60e;</span><span class="text">代理商</span></a>
+            }
+            @if (this.Model.IsPermission("d0f09441-d143-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "merchants") {<text>selected</text>} gq-singleline" href="/merchants/index"><span class="gq-icon">&#xe617;</span><span class="text">商户</span></a>
+            }
+            @if (this.Model.IsPermission("db5514c7-d143-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "apps") {<text>selected</text>} gq-singleline" href="/apps/index"><span class="gq-icon">&#xe6f0;</span><span class="text">应用</span></a>
+            }
+            @if (this.Model.IsPermission("e9c707da-d143-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "orders") {<text>selected</text>} gq-singleline" href="/orders/index"><span class="gq-icon">&#xe60b;</span><span class="text">订单</span></a>
+            }
+            @if (this.Model.IsPermission("f56e31fa-d143-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "waybills") {<text>selected</text>} gq-singleline" href="/waybills/index"><span class="gq-icon">&#xe692;</span><span class="text">运单</span></a>
+            }
+            @if (this.Model.IsPermission("0341b306-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "refunds") {<text>selected</text>} gq-singleline" href="/refunds/index"><span class="gq-icon">&#xe630;</span><span class="text">退款</span></a>
+            }
+            @if (this.Model.IsPermission("0ecc7dac-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "disputes") {<text>selected</text>} gq-singleline" href="/disputes/index"><span class="gq-icon">&#xe6f1;</span><span class="text">争议</span></a>
+            }
+            @if (this.Model.IsPermission("1e81a56a-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "supports") {<text>selected</text>} gq-singleline" href="/supports/index"><span class="gq-icon">&#xe66f;</span><span class="text">客户服务</span></a>
+            }
+            @if (this.Model.IsPermission("29735e88-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "drawcashs") {<text>selected</text>} gq-singleline" href="/drawcashs/index"><span class="gq-icon">&#xe602;</span><span class="text">提现</span></a>
+            }
+            @if (this.Model.IsPermission("331c2b5a-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "reports") {<text>selected</text>} gq-singleline" href="/reports/index"><span class="gq-icon">&#xe6bf;</span><span class="text">报表</span></a>
+            }
+            @if (this.Model.IsPermission("3a95092a-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "rates") {<text>selected</text>} gq-singleline" href="/rates/index"><span class="gq-icon">&#xe61c;</span><span class="text">汇率</span></a>
+            }
+            @*@if (this.Model.IsPermission("43749d79-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "exchanges") {<text>selected</text>} gq-singleline" href="/exchanges/index"><span class="gq-icon">&#xe62b;</span><span class="text">结汇</span></a>
+            }*@
+            @if (this.Model.IsPermission("4c90ef50-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "gateways") {<text>selected</text>} gq-singleline" href="/gateways/index"><span class="gq-icon">&#xe6b7;</span><span class="text">网关</span></a>
+            }
+            @if (this.Model.IsPermission("55f593f8-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "emails") {<text>selected</text>} gq-singleline" href="/emails/index"><span class="gq-icon">&#xe651;</span><span class="text">邮件模版</span></a>
+            }
+            @if (this.Model.IsPermission("5da7c4a4-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "notices") {<text>selected</text>} gq-singleline" href="/notices/index"><span class="gq-icon">&#xe604;</span><span class="text">公告</span></a>
+            }
+            @*@if (this.Model.IsPermission("6713d760-d144-11ea-a061-de15bc72dcfe"))
+            {
+                <a class="@if (selectedNav == "creditcard") {<text>selected</text>} gq-singleline" href="/creditcard/index"><span class="gq-icon">&#xe628;</span><span class="text">信用卡号</span></a>
+            }*@
+        }
+    </nav>
+</div>
+

@@ -1,0 +1,22 @@
+﻿header{border-bottom:1px solid #ebebeb;height:50px;background-color:#fff}
+header a.logo{float:left;display:block;padding:10px;width:30px;height:30px}
+header h1{display:inline;line-height:50px;font-size:24px}
+div.account-view{margin:30px auto 0;width:300px}
+div.account-view h2{padding:30px 0;font-size:24px;color:#da752b}
+div.account-view ul.validation-view{border:1px solid #ebebeb;margin-bottom:15px;padding:5px 10px;background-color:#ffc}
+div.account-view ul.validation-view li,div.account-view ul.validation-view li a{line-height:25px;color:#ca2927}
+div.account-view ul.validation-view li:before{content:'●';margin-right:5px}
+div.account-view div.line.lr{text-align:right}
+div.account-view div.line label{line-height:30px}
+div.account-view div.line label:after{content:':'}
+div.account-view div.line input,div.account-view div.line select{display:block;border:1px solid #ebebeb;padding:9px}
+div.account-view div.line input,div.account-view div.line select,div.account-view div.line p{width:280px}
+div.account-view div.line p input{display:inline;width:auto}
+div.account-view div.line p label:after{content:''}
+div.account-view div.line select{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+div.account-view div.line input.validation-error,div.account-view div.line select.validation-error{border:1px solid #f35656;box-shadow:0 0 3px #f35656}
+div.account-view div.line span.validation-field{font-size:12px;color:#ca2927}
+div.account-view div.line button{display:block;border:0;margin-top:30px;width:100%;height:35px;color:#fff;background-color:#009688;cursor:pointer}
+div.account-view div.line button:hover{opacity:.8}
+div.account-view div.line a{line-height:35px;color:#009688}
+footer{position:absolute;bottom:0;z-index:-1;width:100%;padding:15px 0;font-size:12px;color:#808080;text-align:center}

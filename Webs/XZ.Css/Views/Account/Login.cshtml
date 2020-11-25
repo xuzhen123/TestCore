@@ -1,0 +1,42 @@
+﻿@model XZ.Css.Models.LoginModel
+@{
+    Layout = null;
+    ViewBag.Title = "登录";
+}
+
+<link rel="stylesheet" href="~/css/account.css" media="all" />
+<header>
+    <div class="gq-middle">
+        <h1>授权及身份认证</h1>
+    </div>
+</header>
+<div class="account-view" id="account-view">
+    <h2 title="您的帐号与您登录电脑的用户名和密码登录相同。如果您没有此帐号，请您的经理协助你获取。">使用您的员工帐号登录</h2>
+    @Html.ValidationSummary()
+    <form action="/account/login" method="post" gq-role="form">
+        @Html.AntiForgeryToken()
+        <div class="line">
+            @Html.LabelFor(model => model.Username)
+            @Html.TextBoxFor(model => model.Username, new { @class = "gq-radius-little" })
+        </div>
+        <div class="line">
+            @Html.LabelFor(model => model.Password)
+            @Html.TextBoxFor(model => model.Password, new { @class = "gq-radius-little" ,@type = "password" })
+        </div>
+        <div class="line">
+            @if (ViewBag.Disable == true)
+            {
+                <button class="gq-radius-little" type="submit" disabled="disabled">请稍后尝试</button>
+            }
+            else
+            {
+                <button class="gq-radius-little" type="submit">登录</button>
+            }
+        </div>
+
+    </form>
+</div>
+<script type="text/javascript" src="~/js/gq.js"></script>
+<script type="text/javascript">Gq.use('form');</script>
+<footer>© @DateTime.Today.Year 保留所有版权</footer>
+

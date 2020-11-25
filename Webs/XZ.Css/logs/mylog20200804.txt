@@ -1,0 +1,1087 @@
+{"@t":"2020-08-04T02:21:06.3464132Z","@mt":"Starting web host"}
+{"@t":"2020-08-04T02:21:17.4007797Z","@mt":"RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:admin, Password:123456, ExchangeName:geek_queue'","@l":"Debug","SourceContext":"DotNetCore.CAP.RabbitMQ.ConnectionChannelPool"}
+{"@t":"2020-08-04T02:21:18.2623553Z","@mt":"### CAP background task is starting.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:21:23.2885285Z","@mt":"Ensuring all create database tables script are applied.","@l":"Debug","SourceContext":"DotNetCore.CAP.MySql.MySqlStorageInitializer"}
+{"@t":"2020-08-04T02:21:23.2909334Z","@mt":"Starting the processing server.","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T02:21:23.2955301Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:21:23.2968478Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:21:23.3353658Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:21:23.4149613Z","@mt":"### CAP started!","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:21:23.4530655Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:21:53.3003982Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:21:53.3009089Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:22:23.3136972Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:22:23.3142964Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:22:53.3292335Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:22:53.3319218Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:23:23.3435676Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:23:23.3441561Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:23:53.3600020Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:23:53.3625529Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:24:23.3732584Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:24:23.3771310Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:24:53.3921114Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:24:53.3924883Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:25:23.4009762Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:25:23.4018237Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:25:53.4184514Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:25:53.4196971Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:26:23.4263129Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:26:23.4268737Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:26:23.4845921Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:26:23.5066057Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:26:53.4390285Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:26:53.4395442Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:27:23.4569973Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:27:23.4606192Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:27:53.4760986Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:27:53.4781164Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:28:23.4854697Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:28:23.4890394Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:28:53.5143175Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:28:53.5234548Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:29:23.5336586Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:29:23.5347859Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:29:53.5454139Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:29:53.5464332Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:30:23.5475517Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:30:23.5484625Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:30:53.5772872Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:30:53.6059400Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:31:23.5203762Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:31:23.5243668Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:31:23.6134103Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:31:23.6136315Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:31:53.6161593Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:31:53.6164586Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:32:23.6267987Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:32:23.6283870Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:32:53.6291741Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:32:53.6297347Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:33:23.6414570Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:33:23.6464882Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:33:53.6587735Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:33:53.6591185Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:34:23.6764516Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:34:23.6788901Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:34:53.6939400Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:34:53.6943872Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:35:45.7032613Z","@mt":"Starting web host"}
+{"@t":"2020-08-04T02:35:48.1667518Z","@mt":"RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:admin, Password:123456, ExchangeName:geek_queue'","@l":"Debug","SourceContext":"DotNetCore.CAP.RabbitMQ.ConnectionChannelPool"}
+{"@t":"2020-08-04T02:35:48.4559567Z","@mt":"### CAP background task is starting.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:35:51.4829645Z","@mt":"Ensuring all create database tables script are applied.","@l":"Debug","SourceContext":"DotNetCore.CAP.MySql.MySqlStorageInitializer"}
+{"@t":"2020-08-04T02:35:51.4901902Z","@mt":"Starting the processing server.","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T02:35:51.4988889Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:35:51.5045068Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:35:51.6488340Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:35:51.8832950Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:35:51.8860775Z","@mt":"### CAP started!","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:36:21.5149669Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:36:21.5154094Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:36:51.5298986Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:36:51.5304842Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:38:01.0014001Z","@mt":"Starting web host"}
+{"@t":"2020-08-04T02:38:05.2851076Z","@mt":"RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:admin, Password:123456, ExchangeName:geek_queue'","@l":"Debug","SourceContext":"DotNetCore.CAP.RabbitMQ.ConnectionChannelPool"}
+{"@t":"2020-08-04T02:38:05.4846606Z","@mt":"### CAP background task is starting.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:38:07.6361906Z","@mt":"Ensuring all create database tables script are applied.","@l":"Debug","SourceContext":"DotNetCore.CAP.MySql.MySqlStorageInitializer"}
+{"@t":"2020-08-04T02:38:07.6381084Z","@mt":"Starting the processing server.","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T02:38:07.6461256Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:38:07.6475824Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:38:07.7006993Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:38:07.8332506Z","@mt":"### CAP started!","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:38:07.8623339Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:38:37.6572055Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:38:37.6577760Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:39:47.7701061Z","@mt":"Starting web host"}
+{"@t":"2020-08-04T02:39:50.5994517Z","@mt":"RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:admin, Password:123456, ExchangeName:geek_queue'","@l":"Debug","SourceContext":"DotNetCore.CAP.RabbitMQ.ConnectionChannelPool"}
+{"@t":"2020-08-04T02:39:50.7372788Z","@mt":"### CAP background task is starting.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:39:52.3800701Z","@mt":"Ensuring all create database tables script are applied.","@l":"Debug","SourceContext":"DotNetCore.CAP.MySql.MySqlStorageInitializer"}
+{"@t":"2020-08-04T02:39:52.3817668Z","@mt":"Starting the processing server.","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T02:39:52.3871352Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:39:52.3877252Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:39:52.4638757Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:39:52.6456001Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:39:52.6544633Z","@mt":"### CAP started!","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T02:40:22.4019851Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:40:22.4035366Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:40:52.4046282Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:40:52.4053647Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:41:22.4086665Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:41:22.4102434Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:41:52.4200840Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:41:52.4245886Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:42:22.4364449Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:42:22.4387822Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:42:52.4560725Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:42:52.4598312Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:43:22.4760074Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:43:22.4770284Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:43:52.4895290Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:43:52.4899136Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:44:22.5000453Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:44:22.5044028Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:44:52.5178687Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:44:52.5195412Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:44:52.6645152Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:44:52.6825562Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:45:22.5309361Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:45:22.5352252Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:45:52.5372044Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:45:52.5378601Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:46:22.5509637Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:46:22.5514452Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:46:52.5555528Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:46:52.5560554Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:47:22.5629652Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:47:22.5648146Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:47:52.5773363Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:47:52.5781853Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:48:22.5964165Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:48:22.5993125Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:48:52.6086562Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:48:52.6092068Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:49:22.6322621Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:49:22.6329039Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:49:52.6394097Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:49:52.6522251Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:49:52.7020373Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:49:52.7245874Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:50:22.6545358Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:50:22.6547909Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:50:52.6704548Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:50:52.6709497Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:51:22.6858870Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:51:22.6949856Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:51:52.7039748Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:51:52.7041804Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:52:22.7079518Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:52:22.7089185Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:52:52.7223024Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:52:52.7291748Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:53:22.7333954Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:53:22.7336044Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:53:52.7406499Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:53:52.7411029Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:54:22.7479268Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:54:22.7500856Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:54:52.7520331Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:54:52.7520237Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:54:52.7557846Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:54:52.7601754Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:55:22.7651624Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:55:22.7653896Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:55:52.7692964Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:55:52.7696659Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:56:22.7825272Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:56:22.7834412Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:56:52.7891547Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:56:52.7905610Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:57:22.8063352Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:57:22.8125217Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:57:52.8204686Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:57:52.8211532Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:58:22.8298975Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:58:22.8359269Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:58:52.8484186Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:58:52.8486102Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:59:22.8576599Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:59:22.8581192Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:59:52.7661229Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:59:52.7683327Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T02:59:52.8730133Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T02:59:52.8732781Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:00:22.8762144Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:00:22.8773351Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:00:52.8818799Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:00:52.8823312Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:01:22.8919817Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:01:22.8923136Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:01:52.9088329Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:01:52.9148481Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:02:12.5004801Z","@mt":"### CAP background task is stopping.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T03:02:12.5013222Z","@mt":"Shutting down the processing server...","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T03:02:12.5029804Z","@mt":"### CAP shutdown!","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T03:02:20.5110799Z","@mt":"Starting web host"}
+{"@t":"2020-08-04T03:02:22.4090323Z","@mt":"RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:admin, Password:123456, ExchangeName:geek_queue'","@l":"Debug","SourceContext":"DotNetCore.CAP.RabbitMQ.ConnectionChannelPool"}
+{"@t":"2020-08-04T03:02:22.5893488Z","@mt":"### CAP background task is starting.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T03:02:23.8941337Z","@mt":"Ensuring all create database tables script are applied.","@l":"Debug","SourceContext":"DotNetCore.CAP.MySql.MySqlStorageInitializer"}
+{"@t":"2020-08-04T03:02:23.9076938Z","@mt":"Starting the processing server.","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T03:02:23.9144469Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:02:23.9437016Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:02:24.1362006Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:02:24.2620810Z","@mt":"### CAP started!","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T03:02:24.2860647Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:02:55.3814677Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:02:55.3857958Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:03:25.3986235Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:03:25.4025647Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:03:55.4050134Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:03:55.4066460Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:04:25.4204706Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:04:25.4208606Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:04:55.4234772Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:04:55.4248774Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:05:25.4358445Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:05:25.4362998Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:05:55.4362105Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:05:55.4374758Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:06:25.4447610Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:06:25.4457076Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:06:55.4552639Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:06:55.4570384Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:07:24.2974200Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:07:24.3084868Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:07:25.4702631Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:07:25.4771892Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:08:24.9675190Z","@mt":"Starting web host"}
+{"@t":"2020-08-04T03:08:26.8794645Z","@mt":"RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:admin, Password:123456, ExchangeName:geek_queue'","@l":"Debug","SourceContext":"DotNetCore.CAP.RabbitMQ.ConnectionChannelPool"}
+{"@t":"2020-08-04T03:08:27.2303451Z","@mt":"### CAP background task is starting.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T03:08:29.0589113Z","@mt":"Ensuring all create database tables script are applied.","@l":"Debug","SourceContext":"DotNetCore.CAP.MySql.MySqlStorageInitializer"}
+{"@t":"2020-08-04T03:08:29.0605563Z","@mt":"Starting the processing server.","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T03:08:29.0676465Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:08:29.0680850Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:08:29.1033106Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:08:29.2312301Z","@mt":"### CAP started!","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T03:08:29.2354940Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:08:59.0749266Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:08:59.0754238Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:09:29.0983021Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:09:29.0992824Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:09:59.1033525Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:09:59.1058582Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:10:29.1348842Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:10:29.1360882Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:10:59.1398590Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:10:59.1403705Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:11:29.1471462Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:11:29.1492405Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:11:59.1609494Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:11:59.1666147Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:12:29.1769127Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:12:29.1797630Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:12:59.1957630Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:12:59.2013123Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:13:29.2080584Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:13:29.2101211Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:13:29.2491228Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:13:29.2589953Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:13:59.2119862Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:13:59.2135988Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:14:29.2371622Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:14:29.2466607Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:14:59.2644502Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:14:59.2671527Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:15:29.2873232Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:15:29.2877047Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:15:59.2904593Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:15:59.3080070Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:16:29.3306074Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:16:29.3323958Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:16:59.3379930Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:16:59.3399890Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:17:29.3536879Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:17:29.3539992Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:17:59.3620990Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:17:59.3627294Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:18:29.2640870Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:18:29.3060510Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:18:29.3746814Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:18:29.3748816Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:18:59.3900282Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:18:59.3904895Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:19:29.3954651Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:19:29.3956715Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:19:59.4117513Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:19:59.4122160Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:20:29.4389774Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:20:29.4391833Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:20:59.4525369Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:20:59.4546860Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:21:29.4810366Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:21:29.4838255Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:21:59.5017273Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:21:59.5021427Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:22:29.5162434Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:22:29.5165641Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:22:59.5180754Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:22:59.5209761Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:23:29.3169969Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:23:29.3186764Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:23:29.5515622Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:23:29.5615319Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:23:59.5793773Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:23:59.5819245Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:24:29.5924786Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:24:29.5942568Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:24:59.6091611Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:24:59.6097673Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:25:29.6233013Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:25:29.6235468Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:25:59.6277621Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:25:59.6280038Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:26:29.6403899Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:26:29.6406487Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:26:59.6442852Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:26:59.6445236Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:27:29.6463097Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:27:29.6465204Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:27:59.6593415Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:27:59.6599088Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:28:29.3301832Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:28:29.3355676Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:28:29.6705711Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:28:29.6760824Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:28:59.6914257Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:28:59.6917017Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:29:29.7034169Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:29:29.7036707Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:29:59.7174596Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:29:59.7176769Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:30:29.7236777Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:30:29.7239557Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:30:59.7368757Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:30:59.7370950Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:31:29.7480665Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:31:29.7482897Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:31:59.7513395Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:31:59.7515474Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:32:29.7669146Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:32:29.7672325Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:32:59.7815127Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:32:59.7817337Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:33:29.3786366Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:33:29.3957112Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:33:29.7959928Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:33:29.7961915Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:33:59.8116005Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:33:59.8126234Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:34:29.8277421Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:34:29.8288412Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:34:59.8417811Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:34:59.8420374Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:35:29.8461558Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:35:29.8463682Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:35:59.8591610Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:35:59.8626712Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:36:29.8640950Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:36:29.8658429Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:36:59.8733363Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:36:59.8736131Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:37:29.8895138Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:37:29.8897394Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:37:59.9042089Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:37:59.9044772Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:38:29.4070628Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:38:29.4325828Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:38:29.9089205Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:38:29.9106519Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:38:59.9119263Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:38:59.9125268Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:39:29.9233572Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:39:29.9239790Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:39:59.9397671Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:39:59.9401754Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:40:29.9560896Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:40:29.9563835Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:40:59.9689636Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:40:59.9745423Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:41:29.9890720Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:41:29.9893009Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:41:59.9998737Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:42:00.0049277Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:42:30.0428155Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:42:30.0430156Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:43:00.0454231Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:43:00.0456700Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:43:29.4363870Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:43:29.4381113Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:43:30.0509124Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:43:30.0524352Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:44:00.0534958Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:44:00.0555479Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:44:30.0687770Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:44:30.0690059Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:45:00.0795045Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:45:00.0797437Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:45:30.0820712Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:45:30.0842136Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:46:00.0981538Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:46:00.0984241Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:46:30.1233755Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:46:30.1240095Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:47:00.1396800Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:47:00.1398784Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:47:30.1546846Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:47:30.1550598Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:48:00.1581118Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:48:00.1585654Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:48:29.4526130Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:48:29.5523912Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:48:30.1705640Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:48:30.1711336Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:49:00.1883039Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:49:00.1889570Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:49:30.2042533Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:49:30.2052598Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:50:00.2187643Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:50:00.2190434Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:50:30.2209336Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:50:30.2214630Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:51:00.2356426Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:51:00.2358912Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:51:30.2485004Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:51:30.2486934Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:52:00.2495753Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:52:00.2509386Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:52:30.2541209Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:52:30.2548523Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:53:00.2685811Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:53:00.2689021Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:53:29.5853767Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:53:29.5893685Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:53:30.2816037Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:53:30.2819170Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:54:00.2857078Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:54:00.2882491Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:54:30.3013274Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:54:30.3015287Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:55:00.3284150Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:55:00.3289530Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:55:30.3492913Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:55:30.3602558Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:56:00.3776604Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:56:00.3779592Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:56:30.3907390Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:56:30.3914831Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:57:00.4122639Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:57:00.4145453Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:57:30.4309441Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:57:30.4319962Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:58:00.4439163Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:58:00.4441341Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:58:29.6082824Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:58:29.6106707Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T03:58:30.4533127Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:58:30.5329977Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:59:00.5497999Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:59:00.5540066Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:59:30.5704670Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T03:59:30.5706814Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:00:00.5854745Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:00:00.5856971Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:00:30.5981716Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:00:30.5983979Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:01:00.6109017Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:01:00.6111457Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:01:30.6118947Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:01:30.6121074Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:02:00.6234431Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:02:00.6236700Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:02:30.6237338Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:02:30.6240027Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:03:00.6256315Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:03:00.6258414Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:03:29.6286508Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T04:03:29.6300261Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T04:03:30.6287343Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:03:30.6289601Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:04:00.6384831Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:04:00.6390695Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:04:30.6431494Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:04:30.6433584Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:05:00.6555744Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:05:00.6558270Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:05:30.6579126Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:05:30.6581466Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:06:00.6717873Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:06:00.6721654Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:06:30.6747407Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:06:30.6749542Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:07:00.6904097Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:07:00.6911339Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:07:30.7012241Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:07:30.7014568Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:08:00.7117784Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:08:00.7148076Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:08:29.6425740Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T04:08:29.6441490Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T04:08:30.7208917Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:08:30.7211138Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:09:00.7454233Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:09:00.7477614Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:09:30.7509851Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:09:30.7560704Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:10:00.7705842Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:10:00.7730295Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:10:30.7751951Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:10:30.7754326Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:11:00.7811076Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:11:00.7813206Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:11:30.7986328Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:11:30.7988598Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:12:00.8012190Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:12:00.8014180Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:58:37.0721272Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:58:37.1467082Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:59:07.1562202Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:59:07.1580776Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:59:24.9717326Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T04:59:24.9735124Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T04:59:37.1581503Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T04:59:37.1594433Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:00:07.1718655Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:00:07.1722914Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:00:37.1750189Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:00:37.1778320Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:01:07.1996344Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:01:07.2020236Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:01:37.2142323Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:01:37.2152982Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:02:07.2167882Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:02:07.2221613Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:02:37.2676685Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:02:37.2719384Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:03:07.2834195Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:03:07.2836701Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:03:37.2962711Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:03:37.2965414Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:04:07.3030109Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:04:07.3034551Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:04:24.9840573Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:04:24.9944378Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:04:37.5021585Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:04:37.5084036Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:05:07.5222059Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:05:07.5224218Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:05:37.5314678Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:05:37.5317364Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:06:07.5472095Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:06:07.5474355Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:06:37.5496457Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:06:37.5498356Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:07:07.5603453Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:07:07.5605386Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:07:37.5687977Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:07:37.5691706Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:08:07.5817953Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:08:07.5820621Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:08:37.5939860Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:08:37.5950400Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:09:07.6001054Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:09:07.6055919Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:09:25.0302898Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:09:25.0347867Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:09:37.6073240Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:09:37.6075843Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:10:07.6183109Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:10:07.6185678Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:10:37.6313011Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:10:37.6315035Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:11:07.6456147Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:11:07.6479331Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:11:37.6606147Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:11:37.6652014Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:12:07.6769776Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:12:07.6781947Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:12:37.6887005Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:12:37.6932128Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:13:07.7099226Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:13:07.7146265Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:13:37.7211354Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:13:37.7214020Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:14:07.7332817Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:14:07.7335326Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:14:25.0622187Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:14:25.0643465Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:14:37.7365249Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:14:37.7367579Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:15:07.7507963Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:15:07.7543111Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:15:37.7690298Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:15:37.7692733Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:16:07.7717192Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:16:07.7726589Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:16:37.7827235Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:16:37.7829958Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:17:07.7870109Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:17:07.7914888Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:17:37.8076270Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:17:37.8078212Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:18:07.8127466Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:18:07.8129775Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:18:37.8143232Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:18:37.8147631Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:19:07.8279944Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:19:07.8283080Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:19:25.1013952Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:19:25.1037220Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:19:37.8304241Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:19:37.8307904Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:20:07.8339807Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:20:07.8341843Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:20:37.8428229Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:20:37.8431282Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:21:07.8464574Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:21:07.8467032Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:21:37.8605891Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:21:37.8614310Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:22:07.8749830Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:22:07.8752687Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:22:37.8916190Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:22:37.8918499Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:23:07.9071004Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:23:07.9073818Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:23:37.9146185Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:23:37.9149119Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:24:07.9267988Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:24:07.9270793Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:24:25.1081992Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:24:25.1106049Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:24:37.9393458Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:24:37.9399109Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:25:07.9586578Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:25:07.9588964Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:25:37.9716544Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:25:37.9722697Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:26:07.9905596Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:26:07.9910437Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:26:38.0023315Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:26:38.0042688Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:27:08.0137345Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:27:08.0142297Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:27:38.0351111Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:27:38.0353666Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:28:08.0487787Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:28:08.0490347Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:28:38.0511251Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:28:38.0513312Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:29:08.0726950Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:29:08.0740710Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:29:25.1267842Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:29:25.1279368Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:29:38.0800390Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:29:38.0802651Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:30:08.1042345Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:30:08.1044920Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:30:38.1101339Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:30:38.1104698Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:31:08.1239551Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:31:08.1244411Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:31:38.1319425Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:31:38.1322114Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:32:08.1447599Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:32:08.1483251Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:32:38.1566563Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:32:38.1569662Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:33:08.1676978Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:33:08.1680191Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:33:38.1718264Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:33:38.1723761Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:34:08.1959190Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:34:08.1961995Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:34:25.1393888Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:34:25.1480545Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:34:38.2108908Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:34:38.2135828Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:35:08.2238596Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:35:08.2241048Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:35:38.2333977Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:35:38.2339574Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:36:08.2520677Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:36:08.2522744Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:36:38.2535573Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:36:38.2538849Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:37:08.2677047Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:37:08.2684813Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:37:38.2796599Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:37:38.2800165Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:38:08.2845445Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:38:08.2852436Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:38:38.2973459Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:38:38.2975774Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:39:08.3006217Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:39:08.3010203Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:39:25.1554529Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:39:25.1564508Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:39:38.3148353Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:39:38.3150933Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:40:08.3274382Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:40:08.3280737Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:40:38.3407431Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:40:38.3410225Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:41:08.3634971Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:41:08.3652944Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:41:38.3731507Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:41:38.3734409Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:42:08.3948658Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:42:08.3972821Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:42:38.4104221Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:42:38.4108347Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:43:08.4241264Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:43:08.4260777Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:43:38.4356808Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:43:38.4364723Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:44:08.4670871Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:44:08.4673055Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:44:25.1744134Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:44:25.2297791Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T05:44:38.4874398Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:44:38.4878492Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:45:08.5058314Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T05:45:08.5095668Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:22:34.8926320Z","@mt":"Starting web host"}
+{"@t":"2020-08-04T06:22:40.6130517Z","@mt":"RabbitMQ configuration:'HostName:localhost, Port:-1, UserName:admin, Password:123456, ExchangeName:geek_queue'","@l":"Debug","SourceContext":"DotNetCore.CAP.RabbitMQ.ConnectionChannelPool"}
+{"@t":"2020-08-04T06:22:41.0710486Z","@mt":"### CAP background task is starting.","@l":"Debug","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T06:22:45.1142513Z","@mt":"Ensuring all create database tables script are applied.","@l":"Debug","SourceContext":"DotNetCore.CAP.MySql.MySqlStorageInitializer"}
+{"@t":"2020-08-04T06:22:45.1161410Z","@mt":"Starting the processing server.","SourceContext":"DotNetCore.CAP.Processor.CapProcessingServer"}
+{"@t":"2020-08-04T06:22:45.1412525Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:22:45.1418322Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:22:45.2104030Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:22:45.2921944Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:22:45.2991543Z","@mt":"### CAP started!","SourceContext":"DotNetCore.CAP.Internal.Bootstrapper"}
+{"@t":"2020-08-04T06:23:15.1634826Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:23:15.1648514Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:23:45.1737874Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:23:45.1745643Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:24:15.1946275Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:24:15.1951843Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:24:45.2064643Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:24:45.2090808Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:25:15.2179158Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:25:15.2323768Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:25:45.2403168Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:25:45.2432597Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:26:15.2483431Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:26:15.2513466Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:26:45.2667005Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:26:45.2690253Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:27:15.3296922Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:27:15.3302165Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:27:45.2968949Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:27:45.3458592Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:27:45.3722811Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:27:45.3780193Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:28:15.3947677Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:28:15.3995261Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:28:45.4162574Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:28:45.4167811Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:29:15.4299226Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:29:15.4329928Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:29:45.4420220Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:29:45.4467391Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:30:15.4518672Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:30:15.4539618Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:30:45.4685066Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:30:45.4699786Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:31:15.4842748Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:31:15.4852941Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:31:45.4884615Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:31:45.4963383Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:32:15.4990711Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:32:15.5065726Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:32:45.4225881Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:32:45.4296702Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:32:45.5237638Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:32:45.5240058Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:33:15.5369093Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:33:15.5377421Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:33:45.5535362Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:33:45.5538324Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:34:15.5613056Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:34:15.5617241Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:34:45.5809967Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:34:45.5813824Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:35:15.6025690Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:35:15.6040948Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:35:45.6089513Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:35:45.6093322Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:36:15.6245752Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:36:15.6248164Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:36:45.6397310Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:36:45.6399813Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:37:15.6407485Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:37:15.6415263Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:37:45.4642521Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:37:45.4662176Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:37:45.6437638Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:37:45.6440811Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:38:15.6450603Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:38:15.6452713Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:38:45.6574002Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:38:45.6586740Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:39:15.6701990Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:39:15.6704217Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:39:45.6712083Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:39:45.6714426Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:40:15.6787108Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:40:15.6789505Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:40:45.6886203Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:40:45.6888487Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:41:15.6910275Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:41:15.6912388Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:41:45.7027312Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:41:45.7029778Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:42:15.7173678Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:42:15.7176997Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:42:45.4796060Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:42:45.4813200Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:42:45.7200560Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:42:45.7202430Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:43:15.7225310Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:43:15.7229099Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:43:45.7381820Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:43:45.7390421Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:44:15.7392437Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:44:15.7394613Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:44:45.7399246Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:44:45.7401384Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:45:15.7503978Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:45:15.7506404Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:45:45.7674629Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:45:45.7685232Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:46:15.7795110Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:46:15.7843404Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:46:45.9170513Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:46:45.9190018Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:47:15.9241452Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:47:15.9244691Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:47:45.5022939Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:47:45.5042748Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:47:45.9373202Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:47:45.9375733Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:48:15.9418966Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:48:15.9421769Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:48:45.9551488Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:48:45.9554048Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:49:15.9699043Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:49:15.9701850Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:49:45.9798514Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:49:45.9800638Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:50:15.9916958Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:50:15.9919626Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:50:45.9987369Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:50:45.9989924Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:51:16.0134266Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:51:16.0167160Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:51:46.0318399Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:51:46.0328546Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:52:16.0355229Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:52:16.0358478Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:52:45.5164455Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:52:45.5206222Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:52:46.0458655Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:52:46.0550880Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:53:16.0655532Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:53:16.0660593Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:53:46.0842269Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:53:46.0882640Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:54:16.0949591Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:54:16.0954360Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:54:46.1054659Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:54:46.1065057Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:55:16.1277541Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:55:16.1291970Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:55:46.1440708Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:55:46.1443348Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:56:16.1545264Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:56:16.1547827Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:56:46.1654791Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:56:46.1656989Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:57:16.1725277Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:57:16.1728695Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:57:45.5495165Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:57:45.5551716Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T06:57:46.1921020Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:57:46.1923358Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:58:16.2025969Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:58:16.2027925Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:58:46.2024156Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:58:46.2058117Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:59:16.2183420Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:59:16.2186035Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:59:46.2224791Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T06:59:46.2365859Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:00:16.2485155Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:00:16.2487533Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:00:46.2900344Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:00:46.2903375Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:01:16.2928327Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:01:16.3007480Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:01:46.3687250Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:01:46.3702352Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:02:16.3773192Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:02:16.3816832Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:02:45.5700151Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:02:45.5758595Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:02:46.3966035Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:02:46.3969453Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:03:16.4058368Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:03:16.4069926Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:03:46.4201034Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:03:46.4203303Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:04:16.4410584Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:04:16.4433324Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:04:46.4535815Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:04:46.4538053Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:05:16.4570327Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:05:16.4606549Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:05:46.4776799Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:05:46.4785776Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:06:16.4866468Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:06:16.4868376Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:06:46.5000461Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:06:46.5009544Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:07:16.5560684Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:07:16.5579485Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:07:45.5997305Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:07:45.6206752Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:07:46.5644373Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:07:46.5666586Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:08:16.5768342Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:08:16.5781335Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:08:46.6013068Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:08:46.6015652Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:09:16.6118522Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:09:16.6121869Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:09:46.6261897Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:09:46.6276512Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:10:16.6417192Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:10:16.6420348Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:10:46.6435020Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:10:46.6447143Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:11:16.7096344Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:11:16.7190938Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:11:46.7214790Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:11:46.7216959Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:12:16.7241453Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:12:16.7243315Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:12:45.6283776Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:12:45.6322411Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:12:46.7376198Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:12:46.7377906Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:13:16.7491183Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:13:16.7493184Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:13:46.7908040Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:13:46.7912812Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:14:16.8044236Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:14:16.8048091Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:14:46.8082776Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:14:46.8089376Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:15:16.8193470Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:15:16.8197347Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:15:46.8229427Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:15:46.8234097Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:16:16.8366251Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:16:16.8401544Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:16:46.8541614Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:16:46.8562826Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:17:16.8609534Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:17:16.8639051Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:17:45.6661472Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:17:45.6831703Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:17:46.8739199Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:17:46.8741642Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:18:16.8756471Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:18:16.8763681Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:18:46.8927076Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:18:46.8940461Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:19:16.9071968Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:19:16.9078046Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:19:46.9183808Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:19:46.9192184Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:20:16.9276107Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:20:16.9281823Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:20:46.9493571Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:20:46.9580756Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:21:16.9694737Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:21:16.9699621Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:21:46.9840435Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:21:46.9842885Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:22:16.9883902Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:22:16.9889046Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:22:45.7215358Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:22:45.7256669Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:22:46.9956909Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:22:46.9983333Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:23:17.0023529Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:23:17.0118753Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:23:47.0225031Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:23:47.0755412Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:24:17.0965747Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:24:17.0975141Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:24:47.1022924Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:24:47.1029539Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:25:17.1210793Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:25:17.1216127Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:25:47.1263109Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:25:47.1268492Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:26:17.1393874Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:26:17.1398869Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:26:47.1498604Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:26:47.1540425Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:27:17.1700670Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:27:17.1707564Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:27:45.7440874Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:27:45.7601149Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:27:47.1883125Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:27:47.1888305Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:28:17.2032506Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:28:17.2036775Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:28:47.2419975Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:28:47.2424032Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:29:17.2513426Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:29:17.2517264Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:29:47.2670179Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:29:47.2673477Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:30:17.2708148Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:30:17.2712365Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:30:47.2801154Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:30:47.2831960Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:31:17.2859287Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:31:17.2889805Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:31:47.2973200Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:31:47.2977548Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:32:17.3122561Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:32:17.3126881Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:32:45.7829152Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:32:45.7855845Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:32:47.3319431Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:32:47.3332440Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:33:17.3464417Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:33:17.3472933Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:33:47.3635604Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:33:47.3663912Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:34:17.3783575Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:34:17.3790856Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:34:47.3891310Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:34:47.3893979Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:35:17.3891164Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:35:17.3897063Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:35:47.3915729Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:35:47.3924507Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:36:17.3935703Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:36:17.3944196Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:36:47.3978710Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:36:47.3982343Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:37:17.3995438Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:37:17.4000404Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:37:45.8029858Z","@mt":"Collecting expired data from table: cap.published","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:37:45.8048794Z","@mt":"Collecting expired data from table: cap.received","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.CollectorProcessor"}
+{"@t":"2020-08-04T07:37:47.4082656Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:37:47.4087834Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:38:17.4186314Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:38:17.4192725Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:38:47.4397771Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:38:47.4411576Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:39:17.4596999Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:39:17.4650698Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:39:47.4711858Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:39:47.4714404Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:40:17.4835252Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:40:17.4840792Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:40:47.5010714Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:40:47.5013719Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:41:17.5020119Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:41:17.5024215Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:41:47.5156395Z","@mt":"Transport connection checking...","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}
+{"@t":"2020-08-04T07:41:47.5162921Z","@mt":"Transport connection healthy!","@l":"Debug","SourceContext":"DotNetCore.CAP.Processor.TransportCheckProcessor"}

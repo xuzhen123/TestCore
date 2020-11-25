@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Webs\\XZ.SSO.Ids4\\XZ.SSO.Ids4\\XZ.SSO.Ids4.csproj": {}
+  },
+  "projects": {
+    "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Domain\\XZ.Main.Domain\\XZ.Main.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Domain\\XZ.Main.Domain\\XZ.Main.Domain.csproj",
+        "projectName": "XZ.Main.Domain",
+        "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Domain\\XZ.Main.Domain\\XZ.Main.Domain.csproj",
+        "packagesPath": "C:\\Users\\xuzhen\\.nuget\\packages\\",
+        "outputPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Domain\\XZ.Main.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://hghdc1-nuget01.gqioa.com:8624/nuget/gqitech": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Infrastructure\\XZ.Main.Repository\\XZ.Main.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Infrastructure\\XZ.Main.Repository\\XZ.Main.Repository.csproj",
+        "projectName": "XZ.Main.Repository",
+        "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Infrastructure\\XZ.Main.Repository\\XZ.Main.Repository.csproj",
+        "packagesPath": "C:\\Users\\xuzhen\\.nuget\\packages\\",
+        "outputPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Infrastructure\\XZ.Main.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://hghdc1-nuget01.gqioa.com:8624/nuget/gqitech": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Domain\\XZ.Main.Domain\\XZ.Main.Domain.csproj": {
+                "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Domain\\XZ.Main.Domain\\XZ.Main.Domain.csproj"
+              },
+              "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Infrastructure.Core\\XZ.Infrastructure.Core.csproj": {
+                "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Infrastructure.Core\\XZ.Infrastructure.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj",
+        "projectName": "XZ.Domain.Abstractions",
+        "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\xuzhen\\.nuget\\packages\\",
+        "outputPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://hghdc1-nuget01.gqioa.com:8624/nuget/gqitech": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Infrastructure.Core\\XZ.Infrastructure.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Infrastructure.Core\\XZ.Infrastructure.Core.csproj",
+        "projectName": "XZ.Infrastructure.Core",
+        "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Infrastructure.Core\\XZ.Infrastructure.Core.csproj",
+        "packagesPath": "C:\\Users\\xuzhen\\.nuget\\packages\\",
+        "outputPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Infrastructure.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://hghdc1-nuget01.gqioa.com:8624/nuget/gqitech": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Shared\\XZ.Domain.Abstractions\\XZ.Domain.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DotNetCore.CAP": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "DotNetCore.CAP.MySql": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Webs\\XZ.SSO.Ids4\\XZ.SSO.Ids4\\XZ.SSO.Ids4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Webs\\XZ.SSO.Ids4\\XZ.SSO.Ids4\\XZ.SSO.Ids4.csproj",
+        "projectName": "XZ.SSO.Ids4",
+        "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Webs\\XZ.SSO.Ids4\\XZ.SSO.Ids4\\XZ.SSO.Ids4.csproj",
+        "packagesPath": "C:\\Users\\xuzhen\\.nuget\\packages\\",
+        "outputPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Webs\\XZ.SSO.Ids4\\XZ.SSO.Ids4\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuzhen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://hghdc1-nuget01.gqioa.com:8624/nuget/gqitech": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Infrastructure\\XZ.Main.Repository\\XZ.Main.Repository.csproj": {
+                "projectPath": "D:\\XZ.Core\\XZ.Solution2\\XZ.Solution\\Infrastructure\\XZ.Main.Repository\\XZ.Main.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DotNetCore.CAP": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "DotNetCore.CAP.MySql": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "DotNetCore.CAP.RabbitMQ": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0-preview1-19509-03, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

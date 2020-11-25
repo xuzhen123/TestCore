@@ -1,0 +1,12 @@
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\bin\Debug\netcoreapp3.1\XZ.Infrastructure.Core.deps.json
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\bin\Debug\netcoreapp3.1\XZ.Infrastructure.Core.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\bin\Debug\netcoreapp3.1\XZ.Infrastructure.Core.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\bin\Debug\netcoreapp3.1\XZ.Domain.Abstractions.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\bin\Debug\netcoreapp3.1\XZ.Domain.Abstractions.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\obj\Debug\netcoreapp3.1\XZ.Infrastructure.Core.csprojAssemblyReference.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\obj\Debug\netcoreapp3.1\XZ.Infrastructure.Core.AssemblyInfoInputs.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\obj\Debug\netcoreapp3.1\XZ.Infrastructure.Core.AssemblyInfo.cs
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\obj\Debug\netcoreapp3.1\XZ.Infrastructure.Core.csproj.CopyComplete
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\obj\Debug\netcoreapp3.1\XZ.Infrastructure.Core.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\obj\Debug\netcoreapp3.1\XZ.Infrastructure.Core.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Infrastructure.Core\obj\Debug\netcoreapp3.1\XZ.Infrastructure.Core.csproj.CoreCompileInputs.cache

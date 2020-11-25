@@ -1,0 +1,8 @@
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\bin\Debug\netcoreapp3.1\XZ.Core.deps.json
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\bin\Debug\netcoreapp3.1\XZ.Core.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\bin\Debug\netcoreapp3.1\XZ.Core.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\obj\Debug\netcoreapp3.1\XZ.Core.AssemblyInfoInputs.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\obj\Debug\netcoreapp3.1\XZ.Core.AssemblyInfo.cs
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\obj\Debug\netcoreapp3.1\XZ.Core.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\obj\Debug\netcoreapp3.1\XZ.Core.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Shared\XZ.Core\obj\Debug\netcoreapp3.1\XZ.Core.csproj.CoreCompileInputs.cache

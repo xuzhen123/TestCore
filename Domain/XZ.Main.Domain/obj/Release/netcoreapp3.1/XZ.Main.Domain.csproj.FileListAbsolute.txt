@@ -1,0 +1,11 @@
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\bin\Release\netcoreapp3.1\XZ.Main.Domain.deps.json
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\bin\Release\netcoreapp3.1\XZ.Main.Domain.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\bin\Release\netcoreapp3.1\XZ.Main.Domain.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\bin\Release\netcoreapp3.1\XZ.Domain.Abstractions.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\bin\Release\netcoreapp3.1\XZ.Domain.Abstractions.pdb
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\obj\Release\netcoreapp3.1\XZ.Main.Domain.csprojAssemblyReference.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\obj\Release\netcoreapp3.1\XZ.Main.Domain.AssemblyInfoInputs.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\obj\Release\netcoreapp3.1\XZ.Main.Domain.AssemblyInfo.cs
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\obj\Release\netcoreapp3.1\XZ.Main.Domain.csproj.CopyComplete
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\obj\Release\netcoreapp3.1\XZ.Main.Domain.dll
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Domain\XZ.Main.Domain\obj\Release\netcoreapp3.1\XZ.Main.Domain.pdb

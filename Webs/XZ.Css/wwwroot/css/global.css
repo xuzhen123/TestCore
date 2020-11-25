@@ -1,0 +1,310 @@
+﻿/*全局容器*/
+body,#nav-view,#main-view{position:absolute}
+body{left:0;top:0;right:0;bottom:0;overflow:hidden}
+/*左侧菜单*/
+#nav-view{left:0;top:0;bottom:0;border-right:1px solid #ebebeb;background-color:#f5f7fa;overflow:hidden}
+#nav-view,#nav-view div.nav-scroll nav{width:80px;-webkit-transition:all .3s;transition:all .3s}
+#nav-view a.nav-logo{display:block;margin:0 auto;padding:15px 0;width:40px;height:40px}
+#nav-view div.nav-scroll,#nav-view div.nav-bar{position:absolute;left:0}
+#nav-view div.nav-scroll{top:70px;bottom:50px;width:calc(100% + 10px);overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#nav-view div.nav-scroll nav a{position:relative;border-left:3px solid transparent;display:block;text-align:center}
+#nav-view div.nav-scroll nav a.mobile{display:none}
+#nav-view div.nav-scroll nav a,#nav-view div.nav-scroll nav a span.gq-icon,#nav-view div.nav-scroll nav a span.text{line-height:45px}
+#nav-view div.nav-scroll nav a:hover,#nav-view div.nav-scroll nav a.selected{border-left-color:#ca2927}
+#nav-view div.nav-scroll nav a:before,#nav-view div.nav-scroll nav a:after{position:absolute;display:block}
+#nav-view div.nav-scroll nav a:before{left:0;top:0;content:' ';width:0;height:100%;background-color:rgba(202,41,39,.5);-webkit-transition:width .3s;transition:width .3s}
+#nav-view div.nav-scroll nav a:not(.selected):hover:before{width:100%}
+#nav-view div.nav-scroll nav a:after{z-index:2;right:5px;top:50%;margin-top:-8px;width:16px;line-height:16px;font-size:12px;background-color:#da752b;color:#fff;text-align:center;-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
+#nav-view div.nav-scroll nav a[gq-badge]:after{content:attr(gq-badge)}
+#nav-view div.nav-scroll nav a.selected{background-color:rgba(202,41,39,.5);color:#fff}
+#nav-view div.nav-scroll nav a span.text,#nav-view div.nav-bar span.text{display:none}
+#nav-view div.nav-scroll nav a span.gq-icon{font-size:22px}
+#nav-view.open,#nav-view.open div.nav-scroll nav{width:120px}
+#nav-view.open div.nav-scroll nav a{text-align:left}
+#nav-view.open div.nav-scroll nav a span.gq-icon{padding-left:15px;font-size:18px}
+#nav-view.open div.nav-scroll nav a span.text{display:inline;padding-left:5px}
+#nav-view div.nav-bar{bottom:0;width:100%;line-height:50px;text-align:center;cursor:pointer}
+#nav-view div.nav-bar span.text{padding-left:5px;font-size:12px}
+#nav-view div.nav-bar span.icon:before{content:'››'}
+#nav-view.open div.nav-bar span.icon:before{content:'‹‹'}
+#nav-view.open div.nav-bar span.text{display:inline}
+/*右侧容器*/
+#main-view{top:0;bottom:0;left:81px;right:0}
+#nav-view.open+#main-view{left:121px}
+#main-view #top-view,#main-view #scroll-view{position:absolute;left:0;right:0;width:100%}
+/*右侧-顶部*/
+#main-view #top-view{z-index:2;border-bottom:1px solid #ebebeb;height:55px;background-color:#f5f7fa;overflow:hidden}
+#main-view #top-view h1{display:inline;margin-left:15px;line-height:55px;font-size:24px}
+#main-view #top-view div{float:right;margin-right:15px;padding:15px 0}
+#main-view #top-view div a,#main-view #top-view div select{line-height:25px}
+#main-view #top-view div select{border:none;background:none;cursor:pointer;width:36px;-webkit-appearance: none}
+#main-view #top-view div select option{background-color:#f5f7fa}
+#main-view #top-view div a.user{color:#ca2927}
+#main-view #top-view div a.user:hover{text-decoration:underline}
+#main-view #top-view div a+a,#main-view #top-view div a+select,#main-view #top-view div select+a{margin-left:5px}
+/*右侧-框架*/
+#main-view #scroll-view{top:56px;bottom:0;overflow:auto;-webkit-overflow-scrolling:touch}
+#main-view #scroll-view p.copyright{display:none;margin-bottom:15px;font-size:12px;color:#ccc;text-align:center}
+/*框架-首页*/
+#main-view #scroll-view div.tooltip{position:relative;margin:15px 15px 0;padding:10px 30px 10px 10px}
+#main-view #scroll-view div.tooltip,#main-view #scroll-view div.tooltip a.link{color:#fff}
+#main-view #scroll-view div.tooltip a.close{position:absolute;right:5px;top:50%;display:block;margin-top:-10px;width:20px;height:20px;color:#fff}
+#main-view #scroll-view div.tooltip.high{background-color:#f17a10}
+#main-view #scroll-view div.tooltip.normal{background-color:#3882cd}
+#main-view #scroll-view h2.statistics-title,#main-view #scroll-view ul.statistics-block{margin:15px 15px 0}
+#main-view #scroll-view h2.statistics-title{font-size:22px}
+#main-view #scroll-view ul.statistics-block{min-width:1000px}
+#main-view #scroll-view ul.statistics-block li{float:left;border:1px solid #ebebeb;padding:15px 0;width:185px;background-color:#f5f7fa}
+#main-view #scroll-view ul.statistics-block li:hover{border:1px solid #d4d4d4}
+#main-view #scroll-view ul.statistics-block li+li{margin-left:15px}
+#main-view #scroll-view ul.statistics-block li a{display:block}
+#main-view #scroll-view ul.statistics-block li span{display:block;height:20px;text-align:center}
+#main-view #scroll-view ul.statistics-block li span sup,#main-view #scroll-view div.statistics-notes p sup{color:#da752b}
+#main-view #scroll-view ul.statistics-block li span.title{font-weight:bold;margin-bottom:5px}
+#main-view #scroll-view div.statistics-grid{border:1px solid #ebebeb;border-bottom:none;margin:15px 15px 0;background-color:#f5f7fa}
+#main-view #scroll-view div.statistics-grid table{border-collapse:collapse;width:100%}
+#main-view #scroll-view div.statistics-grid table thead tr th,#main-view #scroll-view div.statistics-grid table tbody tr td,#main-view #scroll-view div.statistics-grid table tfoot tr th{border-bottom:1px solid #ebebeb;padding:9px 5px;text-align:left}
+#main-view #scroll-view div.statistics-grid table thead tr th,#main-view #scroll-view div.statistics-grid table tbody tr td,#main-view #scroll-view div.statistics-grid table tbody tr td a,#main-view #scroll-view div.statistics-grid table tfoot tr th{font-weight:400;white-space:nowrap;line-height:1}
+#main-view #scroll-view div.statistics-grid table thead tr th{font-size:16px}
+#main-view #scroll-view div.statistics-grid table thead tr th.large,#main-view #scroll-view div.statistics-grid table tbody tr td.large{width:10%;overflow:hidden;text-overflow:ellipsis}
+#main-view #scroll-view div.statistics-grid table thead tr th.xlarge,#main-view #scroll-view div.statistics-grid table tbody tr td.xlarge{width:30%;overflow:hidden;text-overflow:ellipsis}
+#main-view #scroll-view div.statistics-grid table tbody tr:hover td{background-color:rgba(255,255,255,.5);-webkit-transition:all .3s;transition:all .3s}
+#main-view #scroll-view div.statistics-notes{margin:15px 15px 0}
+#main-view #scroll-view div.statistics-notes p{border-bottom:1px dashed #ebebeb}
+#main-view #scroll-view div.contact-im{margin:15px;padding:0 10px;text-align:center}
+#main-view #scroll-view div.contact-im a+a{margin-left:15px}
+#main-view #scroll-view div.contact-im a span.gq-icon{color:#188bf7}
+#main-view #scroll-view div.contact-im a span.name{line-height:20px}
+#main-view #scroll-view div.contact-im a:hover span.name{text-shadow:0 0 10px #188bf7;color:#fff}
+/*框架-筛选*/
+#main-view #scroll-view #filter-view{position:relative;border:1px solid #ebebeb;margin:15px 15px 0;height:35px}
+#main-view #scroll-view #filter-view button,#main-view #scroll-view #filter-view div.scroll span.condition,#main-view #scroll-view #filter-view div.scroll input{display:inline-block;*display:inline;*zoom:1}
+#main-view #scroll-view #filter-view div.scroll input,#main-view #scroll-view #filter-view button{border:0 none;height:100%}
+#main-view #scroll-view #filter-view a.left,#main-view #scroll-view #filter-view a.right,#main-view #scroll-view #filter-view div.scroll{position:absolute;top:0;bottom:0}
+#main-view #scroll-view #filter-view a.left,#main-view #scroll-view #filter-view a.right{z-index:2;display:block;width:30px;line-height:35px;font-size:16px;text-align:center;color:#fff;background-color:#1989fa;opacity:0}
+#main-view #scroll-view #filter-view a.left:hover,#main-view #scroll-view #filter-view a.right:hover{opacity:.6}
+#main-view #scroll-view #filter-view a.left{left:0}
+#main-view #scroll-view #filter-view a.right{right:100px}
+#main-view #scroll-view #filter-view div.scroll{left:0;right:100px;padding:0 5px;word-break:keep-all;white-space:nowrap;overflow:hidden}
+#main-view #scroll-view #filter-view div.scroll span.condition{position:relative;border:1px solid #ebebeb;margin:4px 4px 4px 0;padding:0 25px 0 5px;line-height:25px;background-color:#f5f7fa}
+#main-view #scroll-view #filter-view div.scroll span.condition span.text:after{content:':'}
+#main-view #scroll-view #filter-view div.scroll span.condition span.text+span.display{padding-left:2px}
+#main-view #scroll-view #filter-view div.scroll span.condition span.display+span.display:before{content:',';padding:0 2px}
+#main-view #scroll-view #filter-view div.scroll span.condition[gq-type="daterange"] span.display+span.display:before{content:'~'}
+#main-view #scroll-view #filter-view div.scroll span.condition a{position:absolute;top:5px;right:5px;width:16px;line-height:16px;text-align:center;background-color:#1989fa;font-size:.8em;color:#fff}
+#main-view #scroll-view #filter-view div.scroll span.condition[gq-loading="true"] a,#main-view #scroll-view #filter-view div.scroll span.condition[gq-complete="false"] a{display:none}
+#main-view #scroll-view #filter-view div.scroll input{padding:0;width:90%}
+#main-view #scroll-view #filter-view div.scroll span.condition+input{margin-left:4px;width:365px}
+#main-view #scroll-view #filter-view button{float:right;width:100px;border-top-right-radius:3px;border-bottom-right-radius:3px;background-color:#da752b;color:#fff;cursor:pointer}
+#main-view #scroll-view #filter-view ul{position:absolute;top:36px;display:none;border:1px solid #ebebeb;border-top:none;width:180px;height:auto;background-color:#ebebeb;box-shadow:2px 2px 8px rgba(13,13,13,.3);max-height:400px;overflow-x:hidden;overflow-y:auto}
+#main-view #scroll-view #filter-view ul li{padding:7px 15px;background-color:#f5f7fa;cursor:pointer;transition:background-color .3s ease}
+#main-view #scroll-view #filter-view ul li+li{margin-top:1px}
+#main-view #scroll-view #filter-view ul li.reg:before,#main-view #scroll-view #filter-view ul li.url:before,#main-view #scroll-view #filter-view ul li.default:before{content:'●';position:absolute;left:5px}
+#main-view #scroll-view #filter-view ul li.reg:before{color:#188bf7}
+#main-view #scroll-view #filter-view ul li.url:before{color:#1e9fff}
+#main-view #scroll-view #filter-view ul li.default:before{color:#ca2927}
+#main-view #scroll-view #filter-view ul li:hover{background-color:rgba(202,41,39,.5);color:#fff}
+#main-view #scroll-view #filter-view ul.conditions{z-index:3}
+#main-view #scroll-view #filter-view ul.values{z-index:4}
+#main-view #scroll-view #filter-view ul.values li.selected{color:#ca2927;font-weight:700}
+#main-view #scroll-view #filter-form{display:none;padding:15px;overflow:hidden}
+#main-view #scroll-view #filter-form div.filter-action,#main-view #scroll-view #filter-form div.filter-line+div.filter-line{margin-top:15px}
+#main-view #scroll-view #filter-form div.filter-line label:after{content:':'}
+#main-view #scroll-view #filter-form div.filter-line>input,#main-view #scroll-view #filter-form div.filter-line>select{display:block;border:1px solid #ebebeb;padding:0 5px;width:100%;height:30px}
+#main-view #scroll-view #filter-form div.filter-action button{border:none;padding:0;width:95px;line-height:30px;color:#fff;cursor:pointer}
+#main-view #scroll-view #filter-form div.filter-action button.reset{background-color:#da752b}
+#main-view #scroll-view #filter-form div.filter-action button.submit{float:right;background-color:#1989fa}
+/*框架-快捷操作*/
+#main-view #scroll-view #shortcuts-view{margin:15px 15px 0;height:30px;overflow:hidden}
+#main-view #scroll-view #shortcuts-view a{display:block;line-height:30px;text-align:center;color:#fff;background-color:#1e9fff}
+#main-view #scroll-view #shortcuts-view a:hover{opacity:.8}
+#main-view #scroll-view #shortcuts-view a.all,#main-view #scroll-view #shortcuts-view a.filter,#main-view #scroll-view #shortcuts-view a.link{float:left}
+#main-view #scroll-view #shortcuts-view a.all,#main-view #scroll-view #shortcuts-view a.filter,#main-view #scroll-view #shortcuts-view a.action{width:50px}
+#main-view #scroll-view #shortcuts-view a.all,#main-view #scroll-view #shortcuts-view a.filter{margin-right:15px;}
+#main-view #scroll-view #shortcuts-view a.filter{background-color:#da752b}
+#main-view #scroll-view #shortcuts-view a.link{width:90px}
+#main-view #scroll-view #shortcuts-view a.link+a.link{margin-left:1px}
+#main-view #scroll-view #shortcuts-view a.action+a.action{margin-right:1px}
+#main-view #scroll-view #shortcuts-view a.action{float:right}
+#main-view #scroll-view #shortcuts-view a.mobile,#main-view #scroll-view #shortcuts-view a.filter,#main-view #scroll-view #shortcuts-view a.contextmenu{display:none}
+/*框架-列表*/
+#main-view #scroll-view p.empty{border:1px solid #ebebeb;margin-bottom:15px;padding:10px;background-color:#ffebcc}
+#main-view #scroll-view #data-view{margin:15px 15px 0}
+#main-view #scroll-view #data-view div.charts{width:100%;min-height:450px}
+#main-view #scroll-view #data-view table.grid{border-collapse:collapse;width:100%}
+#main-view #scroll-view #data-view table.grid thead tr th,#main-view #scroll-view #data-view table.grid tbody tr td,#main-view #scroll-view #data-view table.grid tfoot tr th{border-bottom:1px solid #ebebeb;padding:11px 5px;text-align:left}
+#main-view #scroll-view #data-view table.grid thead tr th,#main-view #scroll-view #data-view table.grid tbody tr td,#main-view #scroll-view #data-view table.grid tbody tr td a,#main-view #scroll-view #data-view table.grid tfoot tr th{font-weight:400;white-space:nowrap;line-height:1}
+#main-view #scroll-view #data-view table.grid thead tr th.w70,#main-view #scroll-view #data-view table.grid tbody tr td.w70{width:70px}
+#main-view #scroll-view #data-view table.grid thead tr th.w80,#main-view #scroll-view #data-view table.grid tbody tr td.w80{width:80px}
+#main-view #scroll-view #data-view table.grid thead tr th.w90,#main-view #scroll-view #data-view table.grid tbody tr td.w90{width:90px}
+#main-view #scroll-view #data-view table.grid thead tr th.no,#main-view #scroll-view #data-view table.grid tbody tr td.no,#main-view #scroll-view #data-view table.grid tfoot tr th.no{padding-left:0;padding-right:0}
+#main-view #scroll-view #data-view table.grid thead tr th.sort{cursor:pointer}
+#main-view #scroll-view #data-view table.grid thead tr th.sort:after{padding-left:2px;content:'\e642';font-family:'iconfont'}
+#main-view #scroll-view #data-view table.grid thead tr th.sort:hover:after{color:#1989fa}
+#main-view #scroll-view #data-view table.grid tbody tr td.no i{position:relative;display:block;border:1px solid #ebebeb;width:15px;background-color:#f5f7fa;text-indent:-999em;cursor:pointer}
+#main-view #scroll-view #data-view table.grid tbody tr td.no i.red,#preview-view>div.red dl{background-color:#c00}
+#main-view #scroll-view #data-view table.grid tbody tr td.no i.yellow,#preview-view>div.yellow dl{background-color:#fc0}
+#main-view #scroll-view #data-view table.grid tbody tr td.no i.green,#preview-view>div.green dl{background-color:#0c0}
+#main-view #scroll-view #data-view table.grid tbody tr td.no i.cyan,#preview-view>div.cyan dl{background-color:#0cc}
+#main-view #scroll-view #data-view table.grid tbody tr td.no i.blue,#preview-view>div.blue dl{background-color:#00c}
+#main-view #scroll-view #data-view table.grid tbody tr td.no i.purple,#preview-view>div.purple dl{background-color:#c0c}
+#main-view #scroll-view #data-view table.grid tbody tr td .ms{display:none}
+#main-view #scroll-view #data-view table.grid thead tr th.actions,#main-view #scroll-view #data-view table.grid tbody tr td.actions,#main-view #scroll-view #data-view table.grid tfoot tr th.actions{display:none}
+#main-view #scroll-view #data-view table.grid tbody tr.selected td,#main-view #scroll-view #data-view table.grid tbody tr:hover td{background-color:#e3f8fa;-webkit-transition:all .3s;transition:all .3s}
+#main-view #scroll-view #data-view table.grid tbody tr.selected td.no i:after{content:'●';position:absolute;bottom:1px;left:3px;display:block;color:#ebebeb;text-indent:0}
+#main-view #scroll-view #data-view table.grid thead tr th{font-size:16px}
+#main-view #scroll-view #data-view table.grid tbody tr td a{color:#1989fa;text-decoration:underline}
+/*框架-分页*/
+#main-view #scroll-view #data-view div.pager{margin:15px 0;text-align:center}
+#main-view #scroll-view #data-view div.pager a{border:1px solid #ebebeb;display:inline-block;margin-right:5px;width:45px;line-height:28px;*display:inline;*zoom:1}
+@-webkit-keyframes pager{0%{text-indent:0}50%{text-indent:1.5em}100%{text-indent:-1.5em}}
+@keyframes pager{0%{text-indent:0}50%{text-indent:1.5em}100%{text-indent:-1.5em}}
+#main-view #scroll-view #data-view div.pager a.selected,#main-view #scroll-view #data-view div.pager a:hover{border-color:#da752b}
+#main-view #scroll-view #data-view div.pager a:hover{-webkit-animation:pager 1s ease 0s alternate none infinite;animation: pager 1s ease 0s alternate none infinite}
+#main-view #scroll-view #data-view div.pager a+span{line-height:30px}
+#main-view #scroll-view #data-view div.pager span{font-size:12px}
+#main-view #scroll-view #data-view div.pager span b{padding:0 2px;font-weight:400;color:#ca2927}
+/*框架-表单*/
+#main-view #scroll-view #form-view{margin:15px}
+#main-view #scroll-view #form-view ul.validation-view{border:1px solid #ebebeb;padding:5px 10px;background-color:#ffc}
+#main-view #scroll-view #form-view ul.validation-view li,#main-view #scroll-view #form-view ul.validation-view li a{line-height:25px;color:#ca2927}
+#main-view #scroll-view #form-view ul.validation-view li:before{content:'●';margin-right:5px}
+#main-view #scroll-view #form-view p.summary,#main-view #scroll-view #form-view p.warnning,#main-view #scroll-view #form-view pre{border:1px solid #ebebeb;padding:10px}
+#main-view #scroll-view #form-view p.summary{margin-bottom:5px;background-color:#daf9ca}
+#main-view #scroll-view #form-view p.warnning{margin-bottom:5px;background-color:#fdffdf}
+#main-view #scroll-view #form-view p.summary b,#main-view #scroll-view #form-view p.warnning b{padding:0 2px;color:#ca2927}
+#main-view #scroll-view #form-view p.summary a,#main-view #scroll-view #form-view p.warnning a{color:#1989fa;text-decoration:underline}
+#main-view #scroll-view #form-view pre{font-family:'Source Sans Pro',Calibri,'Segoe UI',HelveticaNeue,Helvetica,Arial,SimHei,'Microsoft YaHei','Heiti SC',Sans-Serif;background-color:#f5f7fa;word-wrap:break-word;word-break:break-all;white-space:pre-wrap}
+#main-view #scroll-view #form-view div.form-line{width:300px}
+#main-view #scroll-view #form-view div.form-xline{width:100%}
+#main-view #scroll-view #form-view div.form-line+div.form-line{margin-top:10px}
+#main-view #scroll-view #form-view div.form-line label{line-height:30px}
+#main-view #scroll-view #form-view div.form-line label:first-child{font-weight:700;color:#808080}
+#main-view #scroll-view #form-view div.form-line label:first-child:after{content:':'}
+#main-view #scroll-view #form-view div.form-line label:first-child.required:before{content:'*';color:#da752b}
+#main-view #scroll-view #form-view div.form-line.detail-line label:first-child.required:before{content:none}
+#main-view #scroll-view #form-view div.form-line input,#main-view #scroll-view #form-view div.form-line select,#main-view #scroll-view #form-view div.form-line textarea{border:1px solid #ebebeb}
+#main-view #scroll-view #form-view div.form-line input.validation-error,#main-view #scroll-view #form-view div.form-line select.validation-error,#main-view #scroll-view #form-view div.form-line textarea.validation-error{border-color:#f35656;box-shadow:0 0 3px #f35656}
+#main-view #scroll-view #form-view div.form-line input.text,#main-view #scroll-view #form-view div.form-line input.date,#main-view #scroll-view #form-view div.form-line select.select,#main-view #scroll-view #form-view div.form-line textarea.area{display:block;padding:4px;width:290px;height:25px}
+#main-view #scroll-view #form-view div.form-line input.small,#main-view #scroll-view #form-view div.form-line select.small,#main-view #scroll-view #form-view div.form-line textarea.small{width:140px}
+#main-view #scroll-view #form-view div.form-line input.x-small,#main-view #scroll-view #form-view div.form-line select.x-small,#main-view #scroll-view #form-view div.form-line textarea.x-small{width:90px}
+#main-view #scroll-view #form-view div.form-line input.xx-small,#main-view #scroll-view #form-view div.form-line select.xx-small,#main-view #scroll-view #form-view div.form-line textarea.xx-small{width:40px}
+#main-view #scroll-view #form-view div.form-line select.select{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+#main-view #scroll-view #form-view div.form-line textarea.area{height:100px}
+#main-view #scroll-view #form-view div.form-line span{font-size:12px}
+#main-view #scroll-view #form-view div.form-line span.tips{color:#808080}
+#main-view #scroll-view #form-view div.form-line span.validation-field{color:#ca2927}
+#main-view #scroll-view #form-view div.form-line p{display:block;padding:5px 0;width:290px}
+#main-view #scroll-view #form-view div.form-line p,#main-view #scroll-view #form-view div.form-line p a{line-height:20px}
+#main-view #scroll-view #form-view div.form-line p input.radio,#main-view #scroll-view #form-view div.form-line p input.checkbox{margin:0;padding:4px}
+#main-view #scroll-view #form-view div.form-line p label+input.radio,#main-view #scroll-view #form-view div.form-line p label+input.checkbox{margin-left:15px}
+#main-view #scroll-view #form-view div.form-line p a{text-decoration:underline}
+#main-view #scroll-view #form-view div.form-line p a:hover{color:#1989fa}
+#main-view #scroll-view #form-view div.form-line button{display:block;border:0;width:100%;height:35px;cursor:pointer}
+#main-view #scroll-view #form-view div.form-line button:hover{opacity:.8}
+#main-view #scroll-view #form-view div.form-line button+button{margin-top:15px}
+#main-view #scroll-view #form-view div.form-line button.submit{margin-top:20px;color:#fff;background-color:#009688}
+#main-view #scroll-view #form-view div.form-line button.rest{background-color:#c9c9c9}
+/*框架-详情*/
+#main-view #scroll-view div#form-view.detail-view{width:initial}
+#main-view #scroll-view div#form-view.detail-view div.form-line label:first-child.required:before{content:none}
+#main-view #scroll-view div#form-view.detail-view div.form-line p{padding:5px 0;width:initial}
+#main-view #scroll-view div#form-view.detail-view div.form-line pre{padding:5px;margin:0;width:initial}
+#main-view #scroll-view div#form-view.detail-view div.form-line p img{min-width:150px;width:auto;max-width:75%;height:auto}
+/*右键菜单*/
+#contextmenu-view{position:absolute;z-index:9;display:none;padding:5px 0;width:125px;background-color:#1e9fff}
+#contextmenu-view a{display:block;padding:0 15px;line-height:35px;color:#fff;overflow:hidden;word-break:keep-all;white-space:nowrap;text-overflow:ellipsis}
+#contextmenu-view a+a{border-top:1px dashed rgba(255,255,255,.2)}
+#contextmenu-view a:hover{background-color:rgba(255,255,255,.2)}
+/*气泡浮窗*/
+#bubble-view,#preview-view{position:absolute;left:-999px;top:-999px;max-width:330px;white-space:pre-wrap;word-wrap:break-word}
+#bubble-view:before,#preview-view>div:before{content:' ';position:absolute;width:0;height:0;left:50%;border-left:5px solid transparent;border-right:5px solid transparent;font-size:0;line-height:0}
+#bubble-view:before{bottom:0;border-top:5px solid #1989fa;margin:0 0 -5px -5px}
+#preview-view>div:before{top:0;border-bottom:5px solid #808080;margin:-5px 0 0 -5px}
+#preview-view>div.red:before{border-bottom-color:#c00}
+#preview-view>div.yellow:before{border-bottom-color:#fc0}
+#preview-view>div.green:before{border-bottom-color:#0c0}
+#preview-view>div.cyan:before{border-bottom-color:#0cc}
+#preview-view>div.blue:before{border-bottom-color:#00c}
+#preview-view>div.purple:before{border-bottom-color:#c0c}
+#bubble-view{z-index:8;padding:5px 8px;color:#fff;background-color:#1989fa}
+#preview-view{z-index:9;border:1px solid #ebebeb;background-color:#fff;width:330px}
+#preview-view dl{padding:20px 10px;color:#fff;text-align:center;background-color:#808080}
+#preview-view dl dt{font-size:18px}
+#preview-view dl dt+dd{font-size:12px}
+#preview-view p{padding:5px 10px}
+#preview-view p span+span{float:right}
+/*筛选：移动设备*/
+#link-view{display:none;position:absolute;z-index:10;left:50%;top:160px;border:1px solid #ebebeb;margin-left:-151px;padding:10px;width:280px;background-color:#fff}
+#link-view a{display:block;width:100%;line-height:30px;text-align:center;background-color:#1e9fff;color:#fff}
+#link-view a+a{margin-top:10px}
+/*响应式*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    #nav-view div.nav-scroll nav a.mobile{display:block}
+    #main-view #scroll-view #data-view table.grid thead tr th.pc,#main-view #scroll-view #data-view table.grid tbody tr td.pc,#main-view #scroll-view #data-view table.grid tfoot tr th.pc{display:none}
+    #main-view #scroll-view #data-view table.grid tbody tr td.pw60,#main-view #scroll-view #data-view table.grid tbody tr td.pw70,#main-view #scroll-view #data-view table.grid tbody tr td.pw80,#main-view #scroll-view #data-view table.grid tbody tr td.pw90{overflow:hidden;text-overflow:ellipsis}
+    #main-view #scroll-view #data-view table.grid tbody tr td.pw60{max-width:60px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.pw70{max-width:70px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.pw80{max-width:80px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.pw90{max-width:90px}
+}
+@media screen and (max-width:767px){
+    ::-webkit-scrollbar{width:3px}
+    #nav-view{z-index:1000;border-right-width:0;height:50px;background:none;overflow:hidden}
+    #nav-view.mopen{height:100%}
+    #nav-view,#nav-view.open{width:100%}
+    #nav-view div.nav-scroll,#nav-view.open div.nav-scroll{top:50px;right:0;bottom:0;background-color:rgba(0,0,0,.6)}
+    #nav-view div.nav-scroll nav,#nav-view.open div.nav-scroll nav{width:160px;height:100%;background-color:#f5f7fa}
+    #nav-view a.nav-logo{padding:10px;margin:0;width:30px;height:30px}
+    #nav-view div.nav-scroll nav a{padding-left:7px;background-color:#f5f7fa}
+    #nav-view div.nav-scroll nav a.mobile{display:block}
+    #nav-view.open div.nav-scroll nav a span.gq-icon{padding-left:0}
+    #nav-view div.nav-bar{display:none}
+    #nav-view+#main-view,#nav-view.open+#main-view{left:0}
+    #main-view #top-view{height:50px;text-align:right}
+    #main-view #top-view h1{display:block;margin:0 15px 0 60px;line-height:50px;font-size:18px}
+    #main-view #top-view div{display:none}
+    #main-view #scroll-view{top:51px}
+    #main-view #scroll-view ul.statistics-block{min-width:initial}
+    #main-view #scroll-view ul.statistics-block li{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+    #main-view #scroll-view ul.statistics-block li+li{margin-left:0}
+    #main-view #scroll-view ul.statistics-block.block-5 li{padding:10px 0}
+    #main-view #scroll-view ul.statistics-block.block-5 li:nth-child(1),#main-view #scroll-view ul.statistics-block.block-5 li:nth-child(5){width:100%}
+    #main-view #scroll-view ul.statistics-block.block-5 li:nth-child(2),#main-view #scroll-view ul.statistics-block.block-5 li:nth-child(4){border-top:none;border-bottom:none;width:33%}
+    #main-view #scroll-view ul.statistics-block.block-5 li:nth-child(3){border:none;width:34%}
+    #main-view #scroll-view ul.statistics-block.block-4 li{width:25%}
+    #main-view #scroll-view ul.statistics-block.block-4 li+li{border-left:none}
+    #main-view #scroll-view div.statistics-grid table thead tr th.pad,#main-view #scroll-view div.statistics-grid table tbody tr td.pad,#main-view #scroll-view div.statistics-grid table tfoot tr th.pad{display:none}
+    #main-view #scroll-view #filter-view div.scroll,#main-view #scroll-view #filter-view a.right{right:50px}
+    #main-view #scroll-view #filter-view div.scroll span.condition+input{width:200px}
+    #main-view #scroll-view #filter-view button{position:relative;width:50px;text-indent:-99em}
+    #main-view #scroll-view #filter-view button:before{position:absolute;left:50%;top:50%;margin-left:-9px;margin-top:-9px;font-family:'iconfont';font-size:18px;content:'\e6ac';text-indent:0}
+    #main-view #scroll-view #filter-view ul{width:130px}
+    #main-view #scroll-view #filter-form{background-color:#fff}
+    #main-view #scroll-view #filter-form div.filter-line>input,#main-view #scroll-view #filter-form div.filter-line>select{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+    #main-view #scroll-view #shortcuts-view a.link{display:none}
+    #main-view #scroll-view #shortcuts-view a.mobile,#main-view #scroll-view #shortcuts-view a.contextmenu{display:block}
+    #main-view #scroll-view #data-view{overflow-x:hidden}
+    #main-view #scroll-view #data-view div.charts{min-height:75vw}
+    #main-view #scroll-view #data-view table.grid thead tr th.pc,#main-view #scroll-view #data-view table.grid tbody tr td.pc,#main-view #scroll-view #data-view table.grid tfoot tr th.pc{display:none}
+    #main-view #scroll-view #data-view table.grid thead tr th.pad,#main-view #scroll-view #data-view table.grid tbody tr td.pad,#main-view #scroll-view #data-view table.grid tfoot tr th.pad{display:none}
+    #main-view #scroll-view #data-view table.grid tbody tr td.mw50,#main-view #scroll-view #data-view table.grid tbody tr td.mw60,#main-view #scroll-view #data-view table.grid tbody tr td.mw70,#main-view #scroll-view #data-view table.grid tbody tr td.mw80,#main-view #scroll-view #data-view table.grid tbody tr td.mw90{overflow:hidden;text-overflow:ellipsis}
+    #main-view #scroll-view #data-view table.grid tbody tr td.mw50{max-width:50px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.mw60{max-width:60px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.mw70{max-width:70px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.mw80{max-width:80px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.mw90{max-width:90px}
+    #main-view #scroll-view #data-view table.grid tbody tr td.right{text-align:right}
+    #main-view #scroll-view #data-view table.grid tbody tr td .ms{display:initial}
+    #main-view #scroll-view #data-view table.grid tbody tr td br.ms+span{display:inline-block;padding-top:5px}
+    #main-view #scroll-view #data-view div.pager a.item,#main-view #scroll-view #data-view div.pager span{display:none}
+    #main-view #scroll-view #data-view div.pager a.selected{display:inline-block}
+    #main-view #scroll-view #form-view div.form-line{width:initial}
+    #main-view #scroll-view #form-view div.form-line input.text, #main-view #scroll-view #form-view div.form-line input.date, #main-view #scroll-view #form-view div.form-line select.select, #main-view #scroll-view #form-view div.form-line textarea.area{width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+    #main-view #scroll-view #form-view div.form-line input.text, #main-view #scroll-view #form-view div.form-line input.date, #main-view #scroll-view #form-view div.form-line select.select{height:30px}
+    #main-view #scroll-view #form-view div.form-line textarea.area{height:80px}
+    #contextmenu-view{top:155px;right:15px}
+}
+@media screen and (max-width:567px){
+    #main-view #scroll-view #data-view table.grid thead tr th, #main-view #scroll-view #data-view table.grid tbody tr td, #main-view #scroll-view #data-view table.grid tfoot tr th{padding:11px 3px}
+}
