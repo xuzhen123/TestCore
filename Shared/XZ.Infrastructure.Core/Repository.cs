@@ -12,31 +12,28 @@ namespace XZ.Infrastructure
 {
     public abstract class Repository<TEntity, TDbContext> : IRepository<TEntity> where TEntity : Entity, IAggregateRoot where TDbContext : EFContext
     {
-        protected virtual DbSet<TEntity> Table { get; private set; }
-
         protected virtual TDbContext DbContext { get; private set; }
 
         public Repository(TDbContext context)
         {
             this.DbContext = context;
-            this.Table = this.DbContext.Set<TEntity>();
         }
         public virtual IUnitOfWork UnitOfWork => DbContext;
 
         #region 数据库操作 同步
         public bool Remove(TEntity entity)
         {
-            this.Table.Remove(entity);
+            this.DbContext.Set<TEntity>().Remove(entity);
 
             return this.UnitOfWork.SaveEntities();
         }
 
         public int Remove(Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
-                this.Table.Remove(item);
+                this.DbContext.Set<TEntity>().Remove(item);
             }
 
             return this.UnitOfWork.SaveChanges();
@@ -44,12 +41,12 @@ namespace XZ.Infrastructure
 
         public TEntity Find(params object[] values)
         {
-            return this.Table.Find(values);
+            return this.DbContext.Set<TEntity>().Find(values);
         }
 
         public int Insert(TEntity entity)
         {
-            this.Table.Add(entity);
+            this.DbContext.Set<TEntity>().Add(entity);
 
             return this.UnitOfWork.SaveChanges();
         }
@@ -59,7 +56,7 @@ namespace XZ.Infrastructure
             Type entityType = typeof(TEntity);
             var properties = entityType.GetProperties();
 
-            foreach (var item in this.Table.Where(predicate))
+            foreach (var item in this.DbContext.Set<TEntity>().Where(predicate))
             {
                 foreach (var propertyInfo in properties)
                 {
@@ -79,7 +76,7 @@ namespace XZ.Infrastructure
                 throw new NotSupportedException("仅允许匿名类传值");
 
             var pis = type.GetProperties();
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
 
             foreach (var item in tmps)
             {
@@ -104,7 +101,7 @@ namespace XZ.Infrastructure
         }
         public int Update<TValue>(Expression<Func<TEntity, TValue>> expression, TValue value, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression, value);
@@ -114,7 +111,7 @@ namespace XZ.Infrastructure
 
         public int Update<TValue1, TValue2>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);
@@ -126,7 +123,7 @@ namespace XZ.Infrastructure
 
         public int Update<TValue1, TValue2, TValue3>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, TValue3>> expression3, TValue3 value3, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);
@@ -139,7 +136,7 @@ namespace XZ.Infrastructure
 
         public int Update<TValue1, TValue2, TValue3, TValue4>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, TValue3>> expression3, TValue3 value3, Expression<Func<TEntity, TValue4>> expression4, TValue4 value4, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);
@@ -153,7 +150,7 @@ namespace XZ.Infrastructure
 
         public int Update<TValue1, TValue2, TValue3, TValue4, TValue5>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, TValue3>> expression3, TValue3 value3, Expression<Func<TEntity, TValue4>> expression4, TValue4 value4, Expression<Func<TEntity, TValue5>> expression5, TValue5 value5, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);
@@ -176,10 +173,10 @@ namespace XZ.Infrastructure
 
         public async Task<int> RemoveAsync(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken = default)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
-                await Task.FromResult(this.Table.Remove(item));
+                await Task.FromResult(this.DbContext.Set<TEntity>().Remove(item));
             }
 
             return await this.UnitOfWork.SaveChangesAsync();
@@ -187,11 +184,11 @@ namespace XZ.Infrastructure
 
         public async Task<TEntity> FindAsync(params object[] values)
         {
-            return await this.Table.FindAsync(values);
+            return await this.DbContext.Set<TEntity>().FindAsync(values);
         }
         public async Task<int> InsertAsync(TEntity entity, CancellationToken cancellationToken = default)
         {
-            await this.Table.AddAsync(entity);
+            await this.DbContext.Set<TEntity>().AddAsync(entity);
 
             return await this.UnitOfWork.SaveChangesAsync();
         }
@@ -201,7 +198,7 @@ namespace XZ.Infrastructure
             Type entityType = typeof(TEntity);
             var properties = entityType.GetProperties();
 
-            foreach (var item in this.Table.Where(predicate))
+            foreach (var item in this.DbContext.Set<TEntity>().Where(predicate))
             {
                 foreach (var propertyInfo in properties)
                 {
@@ -222,7 +219,7 @@ namespace XZ.Infrastructure
                 throw new NotSupportedException("仅允许匿名类传值");
 
             var pis = type.GetProperties();
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
 
             foreach (var item in tmps)
             {
@@ -248,7 +245,7 @@ namespace XZ.Infrastructure
 
         public async Task<int> UpdateAsync<TValue>(Expression<Func<TEntity, TValue>> expression, TValue value, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression, value);
@@ -258,7 +255,7 @@ namespace XZ.Infrastructure
 
         public async Task<int> UpdateAsync<TValue1, TValue2>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);
@@ -270,7 +267,7 @@ namespace XZ.Infrastructure
 
         public async Task<int> UpdateAsync<TValue1, TValue2, TValue3>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, TValue3>> expression3, TValue3 value3, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);
@@ -283,7 +280,7 @@ namespace XZ.Infrastructure
 
         public async Task<int> UpdateAsync<TValue1, TValue2, TValue3, TValue4>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, TValue3>> expression3, TValue3 value3, Expression<Func<TEntity, TValue4>> expression4, TValue4 value4, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);
@@ -297,7 +294,7 @@ namespace XZ.Infrastructure
 
         public async Task<int> UpdateAsync<TValue1, TValue2, TValue3, TValue4, TValue5>(Expression<Func<TEntity, TValue1>> expression1, TValue1 value1, Expression<Func<TEntity, TValue2>> expression2, TValue2 value2, Expression<Func<TEntity, TValue3>> expression3, TValue3 value3, Expression<Func<TEntity, TValue4>> expression4, TValue4 value4, Expression<Func<TEntity, TValue5>> expression5, TValue5 value5, Expression<Func<TEntity, bool>> predicate)
         {
-            var tmps = this.Table.Where(predicate);
+            var tmps = this.DbContext.Set<TEntity>().Where(predicate);
             foreach (var item in tmps)
             {
                 item.SetValue(expression1, value1);

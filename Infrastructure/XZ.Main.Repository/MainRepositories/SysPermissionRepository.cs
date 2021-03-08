@@ -12,7 +12,7 @@ namespace XZ.Main.Repository
         public SysPermissionRepository(MainContext dbContext) : base(dbContext) { }
         public async Task<List<SysPermission>> GetSysRoleAndAppsAsync(int roleId, string sysAppId)
         {
-            var list = this.Table.AsQueryable();
+            var list = this.DbContext.Set<SysPermission>().AsQueryable();
 
             if (roleId > 0)
             {

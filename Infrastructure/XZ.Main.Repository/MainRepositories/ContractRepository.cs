@@ -13,7 +13,7 @@ namespace XZ.Main.Repository
 
         public List<Contract> GetContracts()
         {
-            return this.Table.AsQueryable().ToList();
+            return this.DbContext.Set<Contract>().AsQueryable().ToList();
         }
 
         public Contract GetContractById(int contractId)

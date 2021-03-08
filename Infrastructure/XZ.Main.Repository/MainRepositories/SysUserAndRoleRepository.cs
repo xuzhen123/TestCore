@@ -21,11 +21,11 @@ namespace XZ.Main.Repository
 
         public Task<List<SysUserAndRole>> GetRoleAndSysUsersAsync()
         {
-            return Task.FromResult(this.Table.AsQueryable().ToList());
+            return Task.FromResult(this.DbContext.Set<SysUserAndRole>().AsQueryable().ToList());
         }
         public Task<SysUserAndRole> GetRoleAndSysUserByUserIdAsync(int sysUserId)
         {
-            return Task.FromResult(this.Table.AsQueryable().FirstOrDefault(m => m.SysUserId == sysUserId));
+            return Task.FromResult(this.DbContext.Set<SysUserAndRole>().AsQueryable().FirstOrDefault(m => m.SysUserId == sysUserId));
         }
     }
 }

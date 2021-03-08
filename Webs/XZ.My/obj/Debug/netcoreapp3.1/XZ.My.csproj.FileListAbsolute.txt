@@ -124,3 +124,4 @@ D:\XZ.Core\XZ.Solution2\XZ.Solution\Webs\XZ.My\obj\Debug\netcoreapp3.1\XZ.My.Mvc
 D:\XZ.Core\XZ.Solution2\XZ.Solution\Webs\XZ.My\obj\Debug\netcoreapp3.1\XZ.My.csproj.CoreCompileInputs.cache
 D:\XZ.Core\XZ.Solution2\XZ.Solution\Webs\XZ.My\obj\Debug\netcoreapp3.1\scopedcss\bundle\XZ.My.styles.css
 D:\XZ.Core\XZ.Solution2\XZ.Solution\Webs\XZ.My\obj\Debug\netcoreapp3.1\XZ.My.genruntimeconfig.cache
+D:\XZ.Core\XZ.Solution2\XZ.Solution\Webs\XZ.My\obj\Debug\netcoreapp3.1\XZ.My.csprojAssemblyReference.cache

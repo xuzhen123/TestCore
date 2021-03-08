@@ -16,7 +16,7 @@ namespace XZ.Main.Repository
 
         public List<SysOperation> GetAppSysPms(string sysAppId, string name)
         {
-            var list = this.Table.AsQueryable();
+            var list = this.DbContext.Set<SysOperation>().AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(sysAppId))
             {

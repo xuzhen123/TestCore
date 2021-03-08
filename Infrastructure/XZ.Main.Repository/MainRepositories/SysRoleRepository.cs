@@ -28,17 +28,17 @@ namespace XZ.Main.Repository
             {
                 int roleId = roleIds[0];
 
-                return this.Table.Where(m => m.RoleId == roleId).ToList();
+                return this.DbContext.Set<SysRole>().Where(m => m.RoleId == roleId).ToList();
             }
             else
             {
-                return this.Table.Where(m => roleIds.Contains(m.RoleId)).ToList();
+                return this.DbContext.Set<SysRole>().Where(m => roleIds.Contains(m.RoleId)).ToList();
             }
         }
 
         public List<SysRole> GetSysRoles()
         {
-            return this.Table.AsQueryable().ToList();
+            return this.DbContext.Set<SysRole>().AsQueryable().ToList();
         }
     }
 }

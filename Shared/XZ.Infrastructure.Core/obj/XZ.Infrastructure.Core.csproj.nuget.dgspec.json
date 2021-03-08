@@ -25,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://111.1.63.12:8624/nuget/iet": {},
           "http://hghdc1-nuget01.gqioa.com:8624/nuget/gqitech": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -89,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://111.1.63.12:8624/nuget/iet": {},
           "http://hghdc1-nuget01.gqioa.com:8624/nuget/gqitech": {},
           "https://api.nuget.org/v3/index.json": {}
         },
